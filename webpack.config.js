@@ -15,7 +15,7 @@ const config = {
         ]
     },
     plugins: [new HtmlWebpackPlugin({
-        title: 'Webpack Playground for React Environment',
+        template: 'src/index.template.ejs',
         inject: 'body'
     })],
     devServer: {
